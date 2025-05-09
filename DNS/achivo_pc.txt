@@ -1,0 +1,3 @@
+# Configurar DNS para pedir resolución a digi
+echo "nameserver 10.0.0.1" > /etc/resolv.conf
+echo "search taller.local"  >> /etc/resolv.conf 

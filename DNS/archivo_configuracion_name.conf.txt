@@ -1,0 +1,11 @@
+
+# 2) Configura named.conf.local
+cat << 'EOF' > /etc/bind/named.conf.local
+zone "taller.local" {
+    type master;
+    file "/etc/bind/db.taller.local";
+};
+EOF
+
+
+
