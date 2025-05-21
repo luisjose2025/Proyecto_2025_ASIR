@@ -1,0 +1,12 @@
+dn: uid=usuario_ldap,dc=lujonet,dc=org
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: Usuario Prueba
+sn: Prueba
+uid: usuario_ldap
+uidNumber: 15000
+gidNumber: 10000
+homeDirectory: /home/clientes/usuario_ldap
+loginShell: /bin/bash
+userPassword: 1234
