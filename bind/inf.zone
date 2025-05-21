@@ -1,0 +1,287 @@
+$TTL 86400
+@	IN	SOA	servidor.inf. root.servus.inf (
+			125
+			28800
+			7200
+			604800
+			86400 )
+
+@	IN  NS  servidor.inf.			
+			
+;   Ordenadores del Departamento
+
+dpto1.inf.	IN 	A	10.1.2.21
+dpto2.inf.	IN	A	10.1.2.22
+dpto3.inf.	IN	A	10.1.2.23
+dpto4.inf.	IN	A	10.1.2.24
+dpto5.inf.	IN	A	10.1.2.25
+
+;  Router
+
+servidor.inf.  	IN  A   10.1.1.254
+servidor.inf.	IN  A   10.1.2.254 
+servidor.inf.	IN  A   10.1.3.254
+servidor.inf. 	IN  A   10.1.4.254
+servidor.inf. 	IN  A   10.1.5.254
+servidor.inf.	IN  A	10.1.6.254
+servidor.inf.	IN  A	10.1.7.254
+	
+servidor2.inf.	IN	A	10.1.2.253
+
+; Proliant
+
+server.inf.	IN	A	10.1.2.30
+
+server-ilo.inf. IN	A	10.1.2.29
+
+; Servus
+
+;servus.inf.       IN    A       10.1.2.31	
+vetusservus.inf. IN	A	10.1.2.31
+
+;novusservus.inf. CNAME           servus.inf.
+;servus.inf.	 CNAME		novusservus.inf.
+servus.inf. IN	A	10.1.2.32
+;novusservus.inf. IN     A       10.1.2.32
+
+servus2.inf.	 IN	A	10.1.2.28
+
+; Otros servidores
+
+quimera.inf.	IN	A	10.1.2.5
+lyoko.inf.	IN	A	10.1.2.6
+
+anubis.inf.	 IN	A	10.1.2.33
+aton.inf.	 IN	A	10.1.2.34
+horus.inf.	 IN	A	10.1.2.36
+delfos.inf.	 IN	A	10.1.2.37
+
+; Red TIC
+
+;ticgw.inf.	 IN	A	10.1.2.60
+
+;ticserver.inf.	 IN	A	10.1.6.2
+;c0.inf.	         IN	CNAME	ticserver.inf.
+
+; Dispositivos
+
+canon.inf.	IN	A	10.1.2.26
+impresora.inf.	IN	A	10.1.2.27
+
+ap.inf.	        IN	A	10.1.2.50
+ap-practicas.inf. IN	A	10.1.2.51
+ticgw.inf.	IN	A	10.1.2.60
+switch-vlans.inf. IN	A	10.1.2.61
+switch-rack.inf.	IN	A	10.1.2.64
+
+; Kerberos
+
+freeipa.inf.	IN	A	10.1.2.26
+
+_kerberos.inf.        		IN TXT  "INF"
+_kerberos._udp.INF.	IN	SRV	1 0 88 freeipa.inf.
+_kerberos._tcp.INF.	IN	SRV	1 0 88 freeipa.inf.
+_kerberos-master._udp.INF.	IN	SRV	1 0 88 freeipa.inf.
+_kerberos-master._tcp.INF.	IN	SRV	1 0 88 freeipa.inf.
+_kerberos-adm._tcp.INF.	IN	SRV	1 0 749 freeipa.inf.
+_kpasswd._udp.INF.	IN	SRV	1 0 464 freeipa.inf.
+
+;   ICO1
+
+serv1-t1.inf.	IN  A  10.1.1.1
+serv2-t1.inf.	IN  A  10.1.1.2
+
+switch-t1.inf.	IN  A	10.1.1.4
+
+pc01-t1.inf.	IN  A  10.1.1.101
+pc02-t1.inf.	IN  A  10.1.1.102
+pc03-t1.inf.	IN  A  10.1.1.103
+pc04-t1.inf.	IN  A  10.1.1.104
+pc05-t1.inf.	IN  A  10.1.1.105
+pc06-t1.inf.	IN  A  10.1.1.106
+pc07-t1.inf.	IN  A  10.1.1.107
+pc08-t1.inf.	IN  A  10.1.1.108
+pc09-t1.inf.	IN  A  10.1.1.109
+pc10-t1.inf.	IN  A  10.1.1.110
+pc11-t1.inf.	IN  A  10.1.1.111
+pc12-t1.inf.	IN  A  10.1.1.112
+pc13-t1.inf.	IN  A  10.1.1.113
+pc14-t1.inf.	IN  A  10.1.1.114
+pc15-t1.inf.	IN  A  10.1.1.115
+pc16-t1.inf.    IN  A  10.1.1.116
+pc17-t1.inf.    IN  A  10.1.1.117
+pc18-t1.inf.    IN  A  10.1.1.118
+pc19-t1.inf.    IN  A  10.1.1.119
+pc20-t1.inf.    IN  A  10.1.1.120
+
+; ICO2
+
+serv1-t2.inf.   IN  A  10.1.2.1
+serv2-t2.inf.	IN  A  10.1.2.2
+serv3-t2.inf.	IN  A  10.1.2.3
+
+switch1-t2.inf.	IN	A	10.1.2.63
+switch2-t2.inf.	IN	A	10.1.2.62
+
+pc01-t2.inf. 	IN  A  10.1.2.101
+pc02-t2.inf.	IN  A  10.1.2.102
+pc03-t2.inf.	IN  A  10.1.2.103
+pc04-t2.inf.	IN  A  10.1.2.104
+pc05-t2.inf.	IN  A  10.1.2.105
+pc06-t2.inf.	IN  A  10.1.2.106
+pc07-t2.inf.	IN  A  10.1.2.107
+pc08-t2.inf.	IN  A  10.1.2.108
+pc09-t2.inf.	IN  A  10.1.2.109
+pc10-t2.inf.	IN  A  10.1.2.110
+pc11-t2.inf.	IN  A  10.1.2.111
+pc12-t2.inf.	IN  A  10.1.2.112
+
+; ICO3
+
+serv1-t3.inf.	IN	A	10.1.3.1
+
+switch-t3.inf.	IN	A	10.1.3.4
+
+pc01-t3.inf.	IN  A  10.1.3.101
+pc02-t3.inf.	IN  A  10.1.3.102
+pc03-t3.inf.	IN  A  10.1.3.103
+pc04-t3.inf.	IN  A  10.1.3.104
+pc05-t3.inf.	IN  A  10.1.3.105
+pc06-t3.inf.	IN  A  10.1.3.106
+pc07-t3.inf.	IN  A  10.1.3.107
+pc08-t3.inf.	IN  A  10.1.3.108
+pc09-t3.inf.	IN  A  10.1.3.109
+pc10-t3.inf.	IN  A  10.1.3.110
+pc11-t3.inf.	IN  A  10.1.3.111
+pc12-t3.inf.	IN  A  10.1.3.112
+pc13-t3.inf.	IN  A  10.1.3.113
+pc14-t3.inf.	IN  A  10.1.3.114
+pc15-t3.inf.	IN  A  10.1.3.115
+pc16-t3.inf.	IN  A  10.1.3.116
+pc17-t3.inf.	IN  A  10.1.3.117
+pc18-t3.inf.	IN	A	10.1.3.118
+pc19-t3.inf.	IN	A	10.1.3.119
+pc20-t3.inf.	IN	A	10.1.3.120
+
+; ICO4
+
+serv1-t4.inf.	IN	A	10.1.4.1
+
+switch-t4.inf.	IN	A	10.1.4.4
+switch2-t4.inf.	IN	A	10.1.4.5
+
+pc01-t4.inf.	IN	A	10.1.4.101
+pc02-t4.inf.	IN	A	10.1.4.102
+pc03-t4.inf.	IN	A	10.1.4.103
+pc04-t4.inf.	IN	A	10.1.4.104
+pc05-t4.inf.	IN	A	10.1.4.105
+pc06-t4.inf.	IN	A	10.1.4.106
+pc07-t4.inf.	IN	A	10.1.4.107
+pc08-t4.inf.	IN	A	10.1.4.108
+pc09-t4.inf.	IN	A	10.1.4.109
+pc10-t4.inf.	IN	A	10.1.4.110
+pc11-t4.inf.	IN	A	10.1.4.111
+pc12-t4.inf.	IN	A	10.1.4.112
+pc13-t4.inf.	IN	A	10.1.4.113
+pc14-t4.inf.	IN	A	10.1.4.114
+pc15-t4.inf.	IN	A	10.1.4.115
+pc16-t4.inf.	IN	A	10.1.4.116
+pc17-t4.inf.	IN	A	10.1.4.117
+pc18-t4.inf.	IN	A	10.1.4.118
+pc19-t4.inf.	IN	A	10.1.4.119
+pc20-t4.inf.	IN	A	10.1.4.120
+
+; ICO5
+
+serv1-t5.inf.	IN	A	10.1.5.1
+
+switch-t5.inf.	IN	A	10.1.5.4
+
+pc01-t5.inf.	IN	A	10.1.5.101
+pc02-t5.inf.	IN	A	10.1.5.102
+pc03-t5.inf.	IN	A	10.1.5.103
+pc04-t5.inf.	IN	A	10.1.5.104
+pc05-t5.inf.	IN	A	10.1.5.105
+pc06-t5.inf.	IN	A	10.1.5.106
+pc07-t5.inf.	IN	A	10.1.5.107
+pc08-t5.inf.	IN	A	10.1.5.108
+pc09-t5.inf.	IN	A	10.1.5.109
+pc10-t5.inf.	IN	A	10.1.5.110
+pc11-t5.inf.	IN	A	10.1.5.111
+pc12-t5.inf.	IN	A	10.1.5.112
+pc13-t5.inf.	IN	A	10.1.5.113
+pc14-t5.inf.	IN	A	10.1.5.114
+pc15-t5.inf.	IN	A	10.1.5.115
+pc16-t5.inf.	IN	A	10.1.5.116
+pc17-t5.inf.	IN	A	10.1.5.117
+pc18-t5.inf.	IN	A	10.1.5.118
+pc19-t5.inf.	IN	A	10.1.5.119
+pc20-t5.inf.	IN	A	10.1.5.120
+pc21-t5.inf.	IN	A	10.1.5.121
+; ICO6
+
+serv1-t6.inf.	IN	A	10.1.6.1
+
+switch-t6.inf.	IN	A	10.1.6.4
+
+pc01-t6.inf.	IN	A	10.1.6.101
+pc02-t6.inf.	IN	A	10.1.6.102
+pc03-t6.inf.	IN	A	10.1.6.103
+pc04-t6.inf.	IN	A	10.1.6.104
+pc05-t6.inf.	IN	A	10.1.6.105
+pc06-t6.inf.	IN	A	10.1.6.106
+pc07-t6.inf.	IN	A	10.1.6.107
+pc08-t6.inf.	IN	A	10.1.6.108
+pc09-t6.inf.	IN	A	10.1.6.109
+pc10-t6.inf.	IN	A	10.1.6.110
+pc11-t6.inf.	IN	A	10.1.6.111
+pc12-t6.inf.	IN	A	10.1.6.112
+pc13-t6.inf.	IN	A	10.1.6.113
+pc14-t6.inf.	IN	A	10.1.6.114
+pc15-t6.inf.	IN	A	10.1.6.115
+pc16-t6.inf.	IN	A	10.1.6.116
+pc17-t6.inf.	IN	A	10.1.6.117
+pc18-t6.inf.	IN	A	10.1.6.118
+pc19-t6.inf.	IN	A	10.1.6.119
+pc20-t6.inf.	IN	A	10.1.6.120
+
+; ICO7
+
+serv1-t7.inf.	IN	A	10.1.7.1
+
+switch-t7.inf.	IN	A	10.1.7.4
+
+pc01-t7.inf.	IN	A	10.1.7.101
+pc02-t7.inf.	IN	A	10.1.7.102
+pc03-t7.inf.	IN	A	10.1.7.103
+pc04-t7.inf.	IN	A	10.1.7.104
+pc05-t7.inf.	IN	A	10.1.7.105
+pc06-t7.inf.	IN	A	10.1.7.106
+pc07-t7.inf.	IN	A	10.1.7.107
+pc08-t7.inf.	IN	A	10.1.7.108
+pc09-t7.inf.	IN	A	10.1.7.109
+pc10-t7.inf.	IN	A	10.1.7.110
+pc11-t7.inf.	IN	A	10.1.7.111
+pc12-t7.inf.	IN	A	10.1.7.112
+pc13-t7.inf.	IN	A	10.1.7.113
+pc14-t7.inf.	IN	A	10.1.7.114
+pc15-t7.inf.	IN	A	10.1.7.115
+pc16-t7.inf.	IN	A	10.1.7.116
+pc17-t7.inf.	IN	A	10.1.7.117
+pc18-t7.inf.	IN	A	10.1.7.118
+pc19-t7.inf.	IN	A	10.1.7.119
+pc20-t7.inf.	IN	A	10.1.7.120
+
+; Alias ICO -> TALLERES
+
+pc01-ico1.inf.	IN	CNAME	pc01-t1.inf.
+pc01-ico2.inf.	IN	CNAME	pc01-t5.inf.
+pc01-ico3.inf.	IN	CNAME	pc01-t2.inf.
+pc01-ico4.inf.	IN	CNAME	pc01-t3.inf.
+pc01-ico5.inf.	IN	CNAME	pc01-t4.inf.
+pc01-ico6.inf.	IN	CNAME	pc01-t6.inf.
+pc01-ico7.inf.	IN	CNAME	pc01-t7.inf.
+
+; VPN
+
+icofaq.inf.		IN A	10.2.1.12

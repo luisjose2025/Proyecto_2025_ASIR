@@ -1,0 +1,268 @@
+$TTL 86400
+@	IN	SOA	servidor.inf. root.servus.inf (
+			130
+			28800
+			7200
+			604800
+			86400 )
+@ 	IN  	NS	servidor.inf.
+
+
+;   Ordenadores del Departamento
+
+21.2.1.10.in-addr.arpa.	IN	PTR	dpto1.inf.
+22.2.1.10.in-addr.arpa.	IN	PTR	dpto2.inf.
+23.2.1.10.in-addr.arpa.	IN	PTR	dpto3.inf.
+24.2.1.10.in-addr.arpa.	IN	PTR	dpto4.inf.
+25.2.1.10.in-addr.arpa.	IN	PTR	dpto5.inf.
+
+
+;  Router
+
+254.1.1.10.in-addr.arpa.		IN  PTR servidor.inf.
+254.2.1.10.in-addr.arpa.		IN  PTR servidor.inf.
+254.3.1.10.in-addr.arpa.		IN  PTR servidor.inf.
+254.4.1.10.in-addr.arpa.		IN  PTR servidor.inf.
+254.5.1.10.in-addr.arpa.		IN  PTR servidor.inf.
+254.6.1.10.in-addr.arpa.		IN  PTR servidor.inf.
+254.7.1.10.in-addr.arpa.		IN  PTR servidor.inf.
+
+253.2.1.10.in-addr.arpa.		IN	PTR	servidor2.inf.
+
+; Proliant
+
+30.2.1.10.in-addr.arpa.	IN	PTR	server.inf.
+
+29.2.1.10.in-addr.arpa.	IN	PTR	server-ilo.inf.
+
+; Servus
+			
+31.2.1.10.in-addr.arpa.	IN	PTR	servus.inf.
+
+32.2.1.10.in-addr.arpa.	IN	PTR	novusservus.inf.
+
+28.2.1.10.in-addr.arpa.	IN	PTR	servus2.inf.
+		
+; Otros servidores
+
+33.2.1.10.in-addr.arpa.	IN	PTR	anubis.inf.
+34.2.1.10.in-addr.arpa.	IN	PTR	aton.inf.
+36.2.1.10.in-addr.arpa.	IN	PTR	horus.inf.
+37.2.1.10.in-addr.arpa.	IN	PTR	delfos.inf.
+
+; Kerberos
+
+
+; 26.2.1.10.in-addr.arpa.	IN	PTR	freeipa.inf.
+
+
+; Red TIC
+
+; 60.2.1.10.in-addr.arpa.	IN	PTR	ticgw.inf.
+
+; 2.6.1.10.in-addr.arpa.	IN	PTR	ticserver.inf.
+
+; Dispositivos
+
+27.2.1.10.in-addr.arpa.	IN	PTR	impresora.inf.
+
+50.2.1.10.in-addr.arpa.	IN	PTR	ap.inf.
+51.2.1.10.in-addr.arpa.	IN	PTR	ap-practicas.inf.
+
+61.2.1.10.in-addr.arpa.	IN	PTR	switch-vlans.inf.
+
+
+;  ICO1
+
+1.1.1.10.in-addr.arpa.		IN	PTR	serv1-t1.inf.
+
+101.1.1.10.in-addr.arpa.	IN	PTR	pc01-t1.inf.
+102.1.1.10.in-addr.arpa.	IN	PTR	pc02-t1.inf.
+103.1.1.10.in-addr.arpa.	IN	PTR	pc03-t1.inf.
+104.1.1.10.in-addr.arpa.	IN	PTR	pc04-t1.inf.
+105.1.1.10.in-addr.arpa.	IN	PTR	pc05-t1.inf.
+106.1.1.10.in-addr.arpa.	IN	PTR	pc06-t1.inf.
+107.1.1.10.in-addr.arpa.	IN	PTR	pc07-t1.inf.
+108.1.1.10.in-addr.arpa.	IN	PTR	pc08-t1.inf.
+109.1.1.10.in-addr.arpa.	IN	PTR	pc09-t1.inf.
+110.1.1.10.in-addr.arpa.	IN	PTR	pc10-t1.inf.
+111.1.1.10.in-addr.arpa.	IN	PTR	pc11-t1.inf.
+112.1.1.10.in-addr.arpa.	IN	PTR	pc12-t1.inf.
+113.1.1.10.in-addr.arpa.	IN	PTR	pc13-t1.inf.
+114.1.1.10.in-addr.arpa.	IN	PTR	pc14-t1.inf.
+115.1.1.10.in-addr.arpa.	IN	PTR	pc15-t1.inf.
+116.1.1.10.in-addr.arpa.        IN      PTR     pc16-t1.inf.
+117.1.1.10.in-addr.arpa.        IN      PTR     pc17-t1.inf.
+118.1.1.10.in-addr.arpa.        IN      PTR     pc18-t1.inf.
+119.1.1.10.in-addr.arpa.        IN      PTR     pc19-t1.inf.
+120.1.1.10.in-addr.arpa.        IN      PTR     pc20-t1.inf.
+
+
+; ICO2
+
+1.2.1.10.in-addr.arpa.		IN PTR serv1-t2.inf.
+2.2.1.10.in-addr.arpa.		IN	PTR	serv2-t2.inf.
+
+63.2.1.10.in-addr.arpa.		IN	PTR	switch1-t2.inf.
+
+101.2.1.10.in-addr.arpa.	IN PTR pc01-t2.inf.
+102.2.1.10.in-addr.arpa.	IN PTR pc02-t2.inf.
+103.2.1.10.in-addr.arpa.	IN PTR pc03-t2.inf.
+104.2.1.10.in-addr.arpa.	IN PTR pc04-t2.inf.
+105.2.1.10.in-addr.arpa.	IN PTR pc05-t2.inf.
+106.2.1.10.in-addr.arpa.	IN PTR pc06-t2.inf.
+107.2.1.10.in-addr.arpa.	IN PTR pc07-t2.inf.
+108.2.1.10.in-addr.arpa.	IN PTR pc08-t2.inf.
+109.2.1.10.in-addr.arpa.	IN PTR pc09-t2.inf.
+110.2.1.10.in-addr.arpa.	IN PTR pc10-t2.inf.
+111.2.1.10.in-addr.arpa.	IN PTR pc11-t2.inf.
+112.2.1.10.in-addr.arpa.	IN PTR pc12-t2.inf.
+
+
+; ICO3
+
+1.3.1.10.in-addr.arpa.		IN PTR serv1-t3.inf.
+2.3.1.10.in-addr.arpa.		IN	PTR	serv2-t3.inf.
+
+4.3.1.10.in-addr.arpa.		IN	PTR	switch-t3.inf.
+
+101.3.1.10.in-addr.arpa.	IN PTR pc01-t3.inf. 
+102.3.1.10.in-addr.arpa.	IN PTR pc02-t3.inf.
+103.3.1.10.in-addr.arpa.	IN PTR pc03-t3.inf.
+104.3.1.10.in-addr.arpa.	IN PTR pc04-t3.inf.
+105.3.1.10.in-addr.arpa.	IN PTR pc05-t3.inf.
+106.3.1.10.in-addr.arpa.	IN PTR pc06-t3.inf.
+107.3.1.10.in-addr.arpa.	IN PTR pc07-t3.inf.
+108.3.1.10.in-addr.arpa.	IN PTR pc08-t3.inf.
+109.3.1.10.in-addr.arpa.	IN PTR pc09-t3.inf.
+110.3.1.10.in-addr.arpa.	IN PTR pc10-t3.inf.
+111.3.1.10.in-addr.arpa.	IN PTR pc11-t3.inf.
+112.3.1.10.in-addr.arpa.	IN PTR pc12-t3.inf.
+113.3.1.10.in-addr.arpa.	IN PTR pc13-t3.inf.
+114.3.1.10.in-addr.arpa.	IN PTR pc14-t3.inf.
+115.3.1.10.in-addr.arpa.	IN PTR pc15-t3.inf.
+116.3.1.10.in-addr.arpa.	IN PTR pc16-t3.inf.
+117.3.1.10.in-addr.arpa.  IN PTR pc17-t3.inf.
+118.3.1.10.in-addr.arpa.  IN PTR pc18-t3.inf.
+119.3.1.10.in-addr.arpa.  IN PTR pc19-t3.inf.
+120.3.1.10.in-addr.arpa.  IN PTR pc20-t3.inf.
+
+; ICO4
+
+1.4.1.10.in-addr.arpa.	IN	PTR	serv1-t4.inf.
+
+4.4.1.10.in-addr.arpa.	IN	PTR	switch-t4.inf.
+5.4.1.10.in-addr.arpa.	IN	PTR	switch2-t4.inf.
+
+101.4.1.10.in-addr.arpa.	IN	PTR	pc01-t4.inf.
+102.4.1.10.in-addr.arpa.	IN	PTR	pc02-t4.inf.
+103.4.1.10.in-addr.arpa.	IN	PTR	pc03-t4.inf.
+104.4.1.10.in-addr.arpa.	IN	PTR	pc04-t4.inf.
+105.4.1.10.in-addr.arpa.	IN	PTR	pc05-t4.inf.
+106.4.1.10.in-addr.arpa.	IN	PTR	pc06-t4.inf.
+107.4.1.10.in-addr.arpa.	IN	PTR	pc07-t4.inf.
+108.4.1.10.in-addr.arpa.	IN	PTR	pc08-t4.inf.
+109.4.1.10.in-addr.arpa.	IN	PTR	pc09-t4.inf.
+110.4.1.10.in-addr.arpa.	IN	PTR	pc10-t4.inf.
+111.4.1.10.in-addr.arpa.	IN	PTR	pc11-t4.inf.
+112.4.1.10.in-addr.arpa.	IN	PTR	pc12-t4.inf.
+113.4.1.10.in-addr.arpa.	IN	PTR	pc13-t4.inf.
+114.4.1.10.in-addr.arpa.	IN	PTR	pc14-t4.inf.
+115.4.1.10.in-addr.arpa.	IN	PTR	pc15-t4.inf.
+116.4.1.10.in-addr.arpa.	IN	PTR	pc16-t4.inf.
+117.4.1.10.in-addr.arpa.	IN	PTR	pc17-t4.inf.
+118.4.1.10.in-addr.arpa.	IN	PTR	pc18-t4.inf.
+119.4.1.10.in-addr.arpa.	IN	PTR	pc19-t4.inf.
+120.4.1.10.in-addr.arpa.	IN	PTR	pc20-t4.inf.
+
+
+; ICO5
+
+1.5.1.10.in-addr.arpa.	IN	PTR	serv1-t5.inf.
+
+4.5.1.10.in-addr.arpa.	IN	PTR	switch-t5.inf.
+
+101.5.1.10.in-addr.arpa.	IN	PTR	pc01-t5.inf.
+102.5.1.10.in-addr.arpa.	IN	PTR	pc02-t5.inf.
+103.5.1.10.in-addr.arpa.	IN	PTR	pc03-t5.inf.
+104.5.1.10.in-addr.arpa.	IN	PTR	pc04-t5.inf.
+105.5.1.10.in-addr.arpa.	IN	PTR	pc05-t5.inf.
+106.5.1.10.in-addr.arpa.	IN	PTR	pc06-t5.inf.
+107.5.1.10.in-addr.arpa.	IN	PTR	pc07-t5.inf.
+108.5.1.10.in-addr.arpa.	IN	PTR	pc08-t5.inf.
+109.5.1.10.in-addr.arpa.	IN	PTR	pc09-t5.inf.
+110.5.1.10.in-addr.arpa.	IN	PTR	pc10-t5.inf.
+111.5.1.10.in-addr.arpa.	IN	PTR	pc11-t5.inf.
+112.5.1.10.in-addr.arpa.	IN	PTR	pc12-t5.inf.
+113.5.1.10.in-addr.arpa.	IN	PTR	pc13-t5.inf.
+114.5.1.10.in-addr.arpa.	IN	PTR	pc14-t5.inf.
+115.5.1.10.in-addr.arpa.	IN	PTR	pc15-t5.inf.
+116.5.1.10.in-addr.arpa.	IN	PTR	pc16-t5.inf.
+117.5.1.10.in-addr.arpa.	IN	PTR	pc17-t5.inf.
+118.5.1.10.in-addr.arpa.	IN	PTR	pc18-t5.inf.
+119.5.1.10.in-addr.arpa.	IN	PTR	pc19-t5.inf.
+120.5.1.10.in-addr.arpa.	IN	PTR	pc20-t5.inf.
+121.5.1.10.in-addr.arpa.        IN      PTR     pc21-t5.inf.
+
+; ICO6
+
+1.6.1.10.in-addr.arpa.	IN	PTR	serv1-t6.inf.
+
+4.6.1.10.in-addr.arpa.	IN	PTR	switch-t6.inf.
+
+101.6.1.10.in-addr.arpa.	IN	PTR	pc01-t6.inf.
+102.6.1.10.in-addr.arpa.	IN	PTR	pc02-t6.inf.
+103.6.1.10.in-addr.arpa.	IN	PTR	pc03-t6.inf.
+104.6.1.10.in-addr.arpa.	IN	PTR	pc04-t6.inf.
+105.6.1.10.in-addr.arpa.	IN	PTR	pc05-t6.inf.
+106.6.1.10.in-addr.arpa.	IN	PTR	pc06-t6.inf.
+107.6.1.10.in-addr.arpa.	IN	PTR	pc07-t6.inf.
+108.6.1.10.in-addr.arpa.	IN	PTR	pc08-t6.inf.
+109.6.1.10.in-addr.arpa.	IN	PTR	pc09-t6.inf.
+110.6.1.10.in-addr.arpa.	IN	PTR	pc10-t6.inf.
+111.6.1.10.in-addr.arpa.	IN	PTR	pc11-t6.inf.
+112.6.1.10.in-addr.arpa.	IN	PTR	pc12-t6.inf.
+113.6.1.10.in-addr.arpa.	IN	PTR	pc13-t6.inf.
+114.6.1.10.in-addr.arpa.	IN	PTR	pc14-t6.inf.
+115.6.1.10.in-addr.arpa.	IN	PTR	pc15-t6.inf.
+116.6.1.10.in-addr.arpa.	IN	PTR	pc16-t6.inf.
+117.6.1.10.in-addr.arpa.	IN	PTR	pc17-t6.inf.
+118.6.1.10.in-addr.arpa.	IN	PTR	pc18-t6.inf.
+119.6.1.10.in-addr.arpa.	IN	PTR	pc19-t6.inf.
+120.6.1.10.in-addr.arpa.	IN	PTR	pc20-t6.inf.
+
+; ICO7
+
+1.7.1.10.in-addr.arpa.	IN	PTR	serv1-t7.inf.
+
+4.7.1.10.in-addr.arpa.	IN	PTR	switch-t7.inf.
+
+101.7.1.10.in-addr.arpa.	IN	PTR	pc01-t7.inf.
+102.7.1.10.in-addr.arpa.	IN	PTR	pc02-t7.inf.
+103.7.1.10.in-addr.arpa.	IN	PTR	pc03-t7.inf.
+104.7.1.10.in-addr.arpa.	IN	PTR	pc04-t7.inf.
+105.7.1.10.in-addr.arpa.	IN	PTR	pc05-t7.inf.
+106.7.1.10.in-addr.arpa.	IN	PTR	pc06-t7.inf.
+107.7.1.10.in-addr.arpa.	IN	PTR	pc07-t7.inf.
+108.7.1.10.in-addr.arpa.	IN	PTR	pc08-t7.inf.
+109.7.1.10.in-addr.arpa.	IN	PTR	pc09-t7.inf.
+110.7.1.10.in-addr.arpa.	IN	PTR	pc10-t7.inf.
+111.7.1.10.in-addr.arpa.	IN	PTR	pc11-t7.inf.
+112.7.1.10.in-addr.arpa.	IN	PTR	pc12-t7.inf.
+113.7.1.10.in-addr.arpa.	IN	PTR	pc13-t7.inf.
+114.7.1.10.in-addr.arpa.	IN	PTR	pc14-t7.inf.
+115.7.1.10.in-addr.arpa.	IN	PTR	pc15-t7.inf.
+116.7.1.10.in-addr.arpa.	IN	PTR	pc16-t7.inf.
+117.7.1.10.in-addr.arpa.	IN	PTR	pc17-t7.inf.
+118.7.1.10.in-addr.arpa.	IN	PTR	pc18-t7.inf.
+119.7.1.10.in-addr.arpa.	IN	PTR	pc19-t7.inf.
+120.7.1.10.in-addr.arpa.	IN	PTR	pc20-t7.inf.
+
+; SERVIDORES
+60.2.1.10.in-addr.arpa.	IN	PTR	ticgw.inf.
+3.2.1.10.in-addr.arpa.	IN	PTR	serv3-t2.inf.
+26.2.1.10.in-addr.arpa.	IN	PTR	canon.inf.
+5.2.1.10.in-addr.arpa.	IN	PTR	quimera.inf.
+64.2.1.10.in-addr.arpa.	IN	PTR	switch-rack.inf.
+;6.2.1.10.in-addr.arpa.	IN	PTR	soc.inf.
+6.2.1.10.in-addr.arpa.	IN	PTR	lyoko.inf.

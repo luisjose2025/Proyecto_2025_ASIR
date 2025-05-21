@@ -1,0 +1,13 @@
+$TTL 86400
+@	IN	SOA	servidor.inf. root.servus.inf (
+			129
+			28800
+			7200
+			604800
+			86400 )
+@ 	IN  	NS	servidor.inf.
+
+
+;   Ordenadores de la VPN
+
+12.1.2.10.in-addr.arpa.	IN	PTR	icofaq.inf.
